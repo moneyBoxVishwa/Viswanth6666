@@ -38,21 +38,35 @@
 }
 
 
-.profpic {
+/* .profpic {
     vertical-align: middle;
     width: 45px;
     height: 45px;
     border-radius: 60%;
     margin-left: 30px;
-  }
+  } */
+
+
+  #avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
 
 .portable{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
-    margin-top: 20px;
-    margin-inline-start: 330px;
+    margin-top: 1px;
+    margin-inline-start: 20%;
     
    
         
@@ -66,13 +80,14 @@
 }
 .image{
     display: flex;
-    margin-left: 180px;
-    margin-top: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
     z-index: 10;
     
     
+    
     }
-
+    
     .big{
         height: 100vh; 
         width: 100vw; 
@@ -348,6 +363,7 @@
 
     .CardContainer {
        display: flex;
+       margin-top: 10%;
       
         
         
@@ -410,30 +426,31 @@
         justify-content: center;
         align-items: center;  
         display: flex;
+       
     
      }
 
      .marq1 img{
-        margin-top: 100%;
+        margin-top: 50%;
         width: 150%;
         
     
      }
 
      .marq2 img{
-        margin-top: 100%;
+        margin-top: 50%;
         width: 150%;    
 
      }
 
      .marq3 img{
-        margin-top: 100%;
+        margin-top: 50%;
         width: 150%;     
 
      }
 
      .marq4 img{
-        margin-top: 100%;
+        margin-top: 50%;
         width: 150%;
      }
 
@@ -593,6 +610,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            position: absolute;
             
           
 
@@ -604,30 +622,32 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
-        
+            position: relative;
+            left: 180%;
             height: 600px;
-            margin-bottom: 10%;
+            margin-bottom: 20%;
+                       
         }
 
-        .inner{
-            
-            
-            
-            
-        }
 
-        .inner img{
-            position: absolute; 
-           
-        
-        }
 
-      .quote {
+        .footer_logo{
+            position: relative;
+            top: -500px;
+            left: 550px;
+            
+
+        }
+    .con{
         position: relative;
-        color: white;
-      }
+        margin-top: -20%;
+        left: 350px;
+        color: rgb(12, 12, 12);
+    }
 
+    .con p{
+        font-size: 40px;
+    }
 
       
 
