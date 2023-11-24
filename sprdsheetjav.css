@@ -1,1 +1,124 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+
+    
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* background: linear-gradient(to bottom, darkcyan, darkcyan); */
+    
+    
+    
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+
+display: flex;
+font-size: 44px;
+margin-top: -30%;
+margin-right: -30%;
+
+}
+
+
+
+.form{
+  margin-top: 30%;
+  
+}
+
+
+
+
+
+
+html {
+  height: 100%;
+  /* max-height: 600px; */
+  width: 1000px;
+  background-color: hsla(200,40%,30%,.4);
+  background-image:   
+    url('../Images/dark\ last.jpeg'), 
+    url('../Images/dark\ airplane.jpeg'),
+    url('../Images/dark\ last.jpeg'),
+    url('../Images/dark\ last.jpeg'),
+    url('../Images/dark\ last.jpeg');
+  background-repeat: repeat-x;
+  background-position: 
+    0 20%,
+    0 100%,
+    0 50%,
+    0 100%,
+    0 0;
+  background-size: 
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  animation: 50s para infinite linear;
+  }
+
+@keyframes para {
+  100% {
+    background-position: 
+      -5000px 20%,
+      -800px 95%,
+      500px 50%,
+      1000px 100%,
+      400px 0;
+    }
+  }
+
+.device a{
+    margin: 100px;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+    margin-bottom: 20%;
+   
+   
+}
+
+    
+
+   
+
+
+.log button{
+    color: rgb(15, 14, 14);
+}
+
+.log h1{
+    margin-bottom: 20%;
+    color: rgb(14, 12, 12);
+}
+
+.log input{
+    margin-bottom: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+
+
+
+ 
+ 
 
